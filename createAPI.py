@@ -12,3 +12,7 @@ def create_folder(folder_name):
 def create_folder_array(folder_names):
     for name in folder_names:
         create_folder(name)
+        
+def create_folder_map(folder_names_map_version):
+    for key, value in folder_names_map_version.items():
+        create_folder(value)
