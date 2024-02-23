@@ -10,3 +10,9 @@
 ### create_folder_array
 1. createAPI.py 안에 있음
 2. 파라미터에 배열로 되어있는 경로가 들어간다.
+
+### create_folder_map
+1. createAPI.py 안에 있음
+2. 파라미터에 딕셔너리(맵)로 되어있는 경로가 들어간다.
+3. key값은 무시를 한다.
+4. value의 경로로만 폴더를 만든다. 
